@@ -1,0 +1,9 @@
+00: Check whether the open source file and camera provided by the media pipe are recognized.
+
+01: Display the angle of the left elbow and necessary letters on the recognized webcam data.
+
+02: Increase the angles to be calculated and receive the input value.
+
+03: The types of squats, deadlifts, bench presses, etc. are shared according to the input data, and the types of exercise are also output on the webcam.
+
+mid: input values are re-entered when q is pressed, and code modification is made so that the program ends when esc is pressed to receive input values continuously.
