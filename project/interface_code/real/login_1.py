@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
-        Dialog.setObjectName("Dialog")
+        Dialog.setObjectName("BSDP") 
         Dialog.resize(980, 508)
         Dialog.setModal(False)
         self.label_2 = QtWidgets.QLabel(Dialog)
@@ -65,7 +65,7 @@ class Ui_Dialog(object):
         self.label_4.setPalette(palette)
         font = QtGui.QFont()
         font.setFamily("DX솔로감성ExB")
-        font.setPointSize(28)
+        font.setPointSize(26)
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.pushButton = QtWidgets.QPushButton(Dialog)
@@ -88,7 +88,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("BSDP", "BSDP"))
         self.label_2.setText(_translate("Dialog", "비밀번호 |"))
         self.label_3.setText(_translate("Dialog", "아이디 |"))
         self.label_4.setText(_translate("Dialog", "로그인 "))
