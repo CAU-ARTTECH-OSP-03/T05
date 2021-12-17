@@ -71,4 +71,6 @@ https://opensource.org/licenses/BSD-3-Clause
 https://www.gnu.org/copyleft/gpl.html
 
 
-
+[호환성]
+GPL2.0 는 modified BSD license와 호환된다.
+GPL3.0 은Apache License 2.0와 호환된다.
