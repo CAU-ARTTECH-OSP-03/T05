@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="WhiteBG">
+    <file>흰배경.png</file>
+  </qresource>
+</RCC>

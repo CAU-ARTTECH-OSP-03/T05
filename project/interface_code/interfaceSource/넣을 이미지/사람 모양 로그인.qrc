@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>사람 모양 로그인.png</file>
+  </qresource>
+</RCC>

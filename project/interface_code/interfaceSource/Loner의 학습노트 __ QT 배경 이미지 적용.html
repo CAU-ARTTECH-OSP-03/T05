@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://wiserloner.tistory.com/347 -->
+<html class="js rgba csscalc opacity supports displaytable display-table cssvhunit cssvwunit mediaqueries textshadow cssanimations backgroundsize boxshadow borderradius boxsizing no-overflowscrolling csstransforms csstransitions csstransforms3d" lang="ko" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/lightbox.min.css"><link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/font.css"><link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/content.css"><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/jquery-3.2.1.min.js.다운로드"></script><!--<![endif]-->
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/lightbox-plus-jquery.min.js.다운로드"></script>
+<script>
+lightbox.options.fadeDuration = 200;
+lightbox.options.resizeDuration = 200;
+lightbox.options.wrapAround = false;
+lightbox.options.albumLabel = "%1 / %2";
+</script>
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="icon" href="https://tistory2.daumcdn.net/tistory/3148195/a92a99c410d1468681a8c09177d231bc"><link rel="apple-touch-icon" href="https://img1.daumcdn.net/thumb/C180x180/?fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F3148195%2Fattach%2F2cf0a96158984b05b925ef196c92012f">
+<link rel="apple-touch-icon" sizes="76x76" href="https://img1.daumcdn.net/thumb/C76x76/?fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F3148195%2Fattach%2F2cf0a96158984b05b925ef196c92012f">
+<link rel="apple-touch-icon" sizes="120x120" href="https://img1.daumcdn.net/thumb/C120x120/?fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F3148195%2Fattach%2F2cf0a96158984b05b925ef196c92012f">
+<link rel="apple-touch-icon" sizes="152x152" href="https://img1.daumcdn.net/thumb/C152x152/?fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F3148195%2Fattach%2F2cf0a96158984b05b925ef196c92012f">
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338">
+<meta name="google-adsense-platform-domain" content="tistory.com">
+<meta name="description" content="배경 이미지를 넣기를 희망하는 컴포넌트의 생성자에 가서,  QPixmap bg(&quot;:/mainImage/image_2019-07-25_18-21-02.png&quot;); QPalette p(palette()); p.setBrush(QPalette::Background, bg); setAutoFillBackground(..">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="https://wiserloner.tistory.com/347"><meta property="og:type" content="article"><meta property="og:url" content="https://wiserloner.tistory.com/347"><meta property="og:article:author" content="Prowd Loner"><meta property="og:site_name" content="Loner의 학습노트"><meta property="og:title" content="QT 배경 이미지 적용"><meta name="by" content="사용자 Prowd Loner"><meta property="og:description" content="배경 이미지를 넣기를 희망하는 컴포넌트의 생성자에 가서,  QPixmap bg(&quot;:/mainImage/image_2019-07-25_18-21-02.png&quot;); QPalette p(palette()); p.setBrush(QPalette::Background, bg); setAutoFillBackground(.."><meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDTX00%2Fbtqxnm6DyU4%2F0YYKL8WCOnjS0z3rKNpb7K%2Fimg.png">
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="QT 배경 이미지 적용"><meta name="twitter:description" content="배경 이미지를 넣기를 희망하는 컴포넌트의 생성자에 가서,  QPixmap bg(&quot;:/mainImage/image_2019-07-25_18-21-02.png&quot;); QPalette p(palette()); p.setBrush(QPalette::Background, bg); setAutoFillBackground(.."><meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDTX00%2Fbtqxnm6DyU4%2F0YYKL8WCOnjS0z3rKNpb7K%2Fimg.png">
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="https://wiserloner.tistory.com/347"><meta name="plink" content="https://wiserloner.tistory.com/347"><meta name="title" content="QT 배경 이미지 적용"><meta name="article:media_name" content="Loner의 학습노트"><meta property="article:mobile_url" content="https://wiserloner.tistory.com/m/347"><meta property="article:pc_url" content="https://wiserloner.tistory.com/347"><meta property="article:mobile_view_url" content="https://wiserloner.tistory.com/m/347"><meta property="article:pc_view_url" content="https://wiserloner.tistory.com/347"><meta property="article:talk_channel_view_url" content="https://wiserloner.tistory.com/m/347"><meta property="article:pc_service_home" content="https://www.tistory.com"><meta property="article:mobile_service_home" content="https://www.tistory.com/m"><meta property="article:txid" content="3148195_347"><meta property="article:published_time" content="2019-08-12T16:29:28+09:00"><meta property="og:regDate" content="20190812162928"><meta property="article:modified_time" content="2020-12-09T19:52:19+09:00">
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https:\/\/wiserloner.tistory.com\/347"},"url":"https:\/\/wiserloner.tistory.com\/347","headline":"QT \ubc30\uacbd \uc774\ubbf8\uc9c0 \uc801\uc6a9","description":"\ubc30\uacbd \uc774\ubbf8\uc9c0\ub97c \ub123\uae30\ub97c \ud76c\ub9dd\ud558\ub294 \ucef4\ud3ec\ub10c\ud2b8\uc758 \uc0dd\uc131\uc790\uc5d0 \uac00\uc11c,  QPixmap bg(\":\/mainImage\/image_2019-07-25_18-21-02.png\"); QPalette p(palette()); p.setBrush(QPalette::Background, bg); setAutoFillBackground(..","author":{"@type":"Person","name":"\uc0ac\uc6a9\uc790 Prowd Loner"},"image":{"@type":"ImageObject","url":"https:\/\/img1.daumcdn.net\/thumb\/R800x0\/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDTX00%2Fbtqxnm6DyU4%2F0YYKL8WCOnjS0z3rKNpb7K%2Fimg.png","width":"800px","height":"800px"},"datePublished":"20190812T16:29:28+09:00","dateModified":"20201209T19:52:19+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/tistory_admin\/static\/images\/openGraph\/opengraph.png","width":"800px","height":"800px"}}}</script><meta name="robots" content="max-image-preview:large">
+<!-- END STRUCTURED_DATA -->
+
+
+	
+	<title>Loner의 학습노트 :: QT 배경 이미지 적용</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="Prowd Loner">
+ 	<link rel="shortcut icon" href="https://wiserloner.tistory.com/favicon.ico">
+ 	<link rel="alternate" type="application/rss+xml" title="Loner의 학습노트" href="https://wiserloner.tistory.com/rss">
+ 	<link rel="stylesheet" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/reset.css">
+ 	<link rel="stylesheet" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/style.css">
+ 	<!--[if gte IE 9]><!-->
+ 	<link rel="stylesheet" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/fonts.css">
+ 	<!--<![endif]-->
+ 	<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/modernizr.min.js.다운로드"></script>
+ 	<!--[if lt IE 9]>
+ 		<link rel="stylesheet" href="https://tistory3.daumcdn.net/tistory/3148195/skin/images/old.css" >
+		<script src="https://tistory3.daumcdn.net/tistory/3148195/skin/images/html5shiv.min.js">
+ 	<![endif]-->
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/style(1).css">
+<script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/profile.js.다운로드"></script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+        
+        window.TistoryBlog = {
+            basePath: "",
+            url: "https://wiserloner.tistory.com",
+            tistoryUrl: "https://wiserloner.tistory.com",
+			manageUrl: 'https://wiserloner.tistory.com/manage',
+            token: 'Lq6TIgIAfYvjmh9kxWabig=='
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script type="text/javascript" defer="" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/reaction-button-container.min.js.다운로드"></script>
+    <script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+        <script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/base.js.다운로드"></script>
+        <link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/dialog.css">
+            <link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/font(1).css">
+    <link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/postBtn.css">
+        <link rel="stylesheet" type="text/css" href="./Loner의 학습노트 __ QT 배경 이미지 적용_files/tistory.css">
+        <script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/kakao.min.js.다운로드"></script><style type="text/css">#DragSchLayer{display:block;position:absolute;z-index:1000;width:61px;height:31px;margin:-30px 0px 0px -5px;background:url(//search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);cursor:pointer}             @media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {             #DragSchLayer{background-image:url(//search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);background-size:61px 31px}}            </style></head>
+
+<body id="tt-body-page" class="tuser">
+<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/348","NEXT_PAGE":"\/346","BLOG":{"isDormancy":false,"title":"Loner\uc758 \ud559\uc2b5\ub178\ud2b8"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Fwiserloner.tistory.com%2F347","DEFAULT_URL":"https:\/\/wiserloner.tistory.com","USER":{"name":null,"homepage":null},"ROLE_GROUP":"visitor","SUBSCRIPTION":{"status":"none","isConnected":false,"isProcessing":false,"isPending":false,"isWait":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"TOP_URL":"https:\/\/www.tistory.com","JOIN_URL":"https:\/\/www.tistory.com\/member\/join"};
+		window.appInfo = {"domain":"tistory.com","topUrl":"https:\/\/www.tistory.com","loginUrl":"https:\/\/www.tistory.com\/auth\/login","logoutUrl":"https:\/\/www.tistory.com\/auth\/logout"};
+
+        window.initData = {};
+        
+	})();
+</script>
+
+<script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/common.js.다운로드"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+
+<div class="skip-content lts-narrow">
+  <a href="https://wiserloner.tistory.com/347#content" class="sr-only focusable" accesskey="s">본문으로 바로가기</a>
+</div>
+
+<div id="wrap">
+
+<!-- site-header  { -->
+<header id="site-header" class="clearfix nav-down" role="banner">
+	<div class="header-left">
+		<h1 class="brand"><a href="https://wiserloner.tistory.com/">Loner의 학습노트</a></h1>
+		<a href="https://wiserloner.tistory.com/347#expand-wrap" id="call-exmenu" aria-haspopup="true" aria-expanded="false">
+			<div class="icon-navbar visible-xs visible-sm">
+				<span class="icon-bar"></span>
+			</div>
+
+			<div class="breadcrumb fouc hidden-xs">
+				<span class="sr-only">현재위치 :: </span>
+				<span class="bread bread-home">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-page">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-cate">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-search">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-archive">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-tag">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-media">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-location">개발지식 (UI)/QT 개인정리</span>
+				<span class="bread bread-guest">개발지식 (UI)/QT 개인정리</span>
+				<i class="icon icon-angle-down"></i>
+			</div>
+		</a>
+		<a href="https://wiserloner.tistory.com/rss" class="rss hidden-xs" alt="rss등록"><i class="icon icon-rss"></i></a>
+	</div>
+
+	<div class="header-right">
+		<nav class="nav-wrap lts-narrow visible-md visible-lg">
+			<h2 class="sr-only">네비게이션</h2>
+			<div id="tt-menu" class="">
+				<ul>		<li class="t_menu_home first">
+			<a href="https://wiserloner.tistory.com/">홈</a>
+		</li>
+				<li class="t_menu_tag">
+			<a href="https://wiserloner.tistory.com/tag">태그</a>
+		</li>
+				<li class="t_menu_guestbook last">
+			<a href="https://wiserloner.tistory.com/guestbook">방명록</a>
+		</li>
+		</ul>
+			</div>
+			<div class="admin-menu dropdown">
+				<a id="call-admin" class="lts-narrow" href="https://wiserloner.tistory.com/347#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">관리자 <i class="icon icon-angle-down"></i></a>
+				<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="call-admin">
+					<li>
+						<div class="media">
+						  	<div class="media-left media-middle blogger-photo">
+						  		<img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/2cf0a96158984b05b925ef196c92012f" alt="블로그 이미지">
+						  	</div>
+						  	<div class="media-body">
+						    	<div class="media-heading blogger-name lts-narrow">Prowd Loner</div>
+						    	<p class="blogger-desc lts-narrow ie-dotum">이해하고, 정리하고, 잊고, 다시 꺼내보기.</p>
+						    	<a href="https://wiserloner.tistory.com/toolbar/popup/link/" class="link-add ie-dotum">링크추가</a>
+						  	</div>
+						</div>
+					</li>
+					<li class="link-blogger"><i class="icon icon-pen"></i><a href="https://wiserloner.tistory.com/manage/entry/post" tabindex="-1">글쓰기</a></li>
+					<li class="link-blogger"><i class="icon icon-cog"></i> <a href="https://wiserloner.tistory.com/manage" tabindex="-1">환경설정</a></li>
+					<li class="last link-blogger admin-login"><i class="icon icon-enter"></i> <a href="https://www.tistory.com/login" tabindex="-1">로그인</a></li>
+					<li class="last link-blogger admin-logout"><i class="icon icon-exit"></i> <a href="https://www.tistory.com/logout" tabindex="-1">로그아웃</a></li>
+					<li class="link-close"><a class="dropdown-close" href="https://wiserloner.tistory.com/347#" title="닫기"><span class="close-bar inline-block"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<a href="https://wiserloner.tistory.com/347#tt-search" id="call-search" aria-haspopup="true" aria-expanded="false"><i class="icon icon-magnifier" aria-label="검색호출"></i></a>
+	</div>
+</header>
+<!-- } site-header -->
+
+<!-- Main { -->
+<main id="main" role="main">
+	<div id="main-inner" class="clearfix">
+		<!-- content { -->
+		<div id="content">
+
+			<!-- Category, Tag, Search Result { -->
+			
+			<!-- } Category, Tag, Search Result -->
+
+			<!-- Taglog { -->
+			
+			<!-- } Taglog -->
+
+			<!-- Local { -->
+			
+			<!-- } Local -->
+
+			<!-- Media { -->
+			
+			<!-- } Media -->
+
+			<!-- guest { -->
+			
+			<!-- } guestbook -->
+
+			<!-- Notice { -->
+			
+			<!-- } Notice -->
+
+			<!-- Protected { -->
+			
+			<!-- } Protected -->
+
+			
+			<article class="entry h-entry">
+				<div class="content-width">
+					
+
+					
+					<header class="hd">
+						<div class="hd-inner">
+							<h2 class="hd-heading lts-narrow p-name" role="heading">
+								<a href="https://wiserloner.tistory.com/347">QT 배경 이미지 적용</a>
+							</h2>
+							<div class="sub-info fouc">
+								<span class="meta-cate">
+									<span class="txt">category</span>
+									<a href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/QT%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC" class="p-category change-lv target-bread cur-cate"><span class="lv-one has-sub-lv">개발지식 (UI)</span><span class="lv-two">QT 개인정리</span></a>
+								</span>
+								<abbr class="timeago dt-published" title="2019. 8. 12. 16:29">2년 전</abbr>
+								<span class="p-author h-card" rel="author" title="작성자"><span>by</span> 사용자 Prowd Loner</span>
+							</div>
+						</div>
+					</header>
+
+					
+
+					<div class="e-content post-content fouc"><div class="tt_article_useless_p_margin contents_style"><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><figure class="imageblock alignCenter" data-image-src="https://k.kakaocdn.net/dn/dDTX00/btqxnm6DyU4/0YYKL8WCOnjS0z3rKNpb7K/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"><span data-url="https://blog.kakaocdn.net/dn/dDTX00/btqxnm6DyU4/0YYKL8WCOnjS0z3rKNpb7K/img.png" data-lightbox="lightbox" data-alt=""><img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDTX00%2Fbtqxnm6DyU4%2F0YYKL8WCOnjS0z3rKNpb7K%2Fimg.png" data-image-src="https://k.kakaocdn.net/dn/dDTX00/btqxnm6DyU4/0YYKL8WCOnjS0z3rKNpb7K/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"></span></figure><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><p data-ke-size="size16" style="text-align: left;">배경 이미지를 넣기를 희망하는 컴포넌트의 생성자에 가서,</p><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><figure class="imageblock alignCenter" data-image-src="https://k.kakaocdn.net/dn/bAMUeP/btqxpAJC97s/FFeGa0I8TGY9pImc1b4QjK/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"><span data-url="https://blog.kakaocdn.net/dn/bAMUeP/btqxpAJC97s/FFeGa0I8TGY9pImc1b4QjK/img.png" data-lightbox="lightbox" data-alt=""><img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/img(1).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbAMUeP%2FbtqxpAJC97s%2FFFeGa0I8TGY9pImc1b4QjK%2Fimg.png" data-image-src="https://k.kakaocdn.net/dn/bAMUeP/btqxpAJC97s/FFeGa0I8TGY9pImc1b4QjK/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"></span></figure><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><pre id="code_1565594946911" class="c++ cpp" data-ke-type="codeblock"><code>QPixmap bg(":/mainImage/image_2019-07-25_18-21-02.png");
+
+       QPalette p(palette());
+       p.setBrush(QPalette::Background, bg);
+
+       setAutoFillBackground(true);
+       setPalette(p);</code></pre><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><p data-ke-size="size16" style="text-align: left;">QPalette 객체로 코드를 생성한 후,</p><p data-ke-size="size16" style="text-align: left;">빌드하고 실행하면...</p><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><figure class="imageblock alignCenter" data-image-src="https://k.kakaocdn.net/dn/Dni0n/btqxoRkJiLV/uXBagMzJEjc4BrNy5QpBG1/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"><span data-url="https://blog.kakaocdn.net/dn/Dni0n/btqxoRkJiLV/uXBagMzJEjc4BrNy5QpBG1/img.png" data-lightbox="lightbox" data-alt=""><img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/img(2).png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDni0n%2FbtqxoRkJiLV%2FuXBagMzJEjc4BrNy5QpBG1%2Fimg.png" data-image-src="https://k.kakaocdn.net/dn/Dni0n/btqxoRkJiLV/uXBagMzJEjc4BrNy5QpBG1/img.png" data-origin-width="0.0" data-origin-height="0.0" data-ke-mobilestyle="widthContent"></span></figure><p data-ke-size="size16" style="text-align: left;">&nbsp;</p><p data-ke-size="size16" style="text-align: left;">잘 적용된다.</p><div class="container_postbtn #post_button_group">
+    <div class="postbtn_like">
+        
+<script>
+    window.ReactionButtonType = 'reaction';
+    window.ReactionApiUrl = '//wiserloner.tistory.com/reaction';
+    window.ReactionReqBody = {
+        entryId: 347    }
+</script>
+<div class="wrap_btn" id="reaction-347"><button class="btn_post uoc-icon"><div class="uoc-icon"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">공감</span></div></button></div>
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/reaction-button-container.min.js.다운로드"></script>
+        <div class="wrap_btn wrap_btn_share">
+    <button type="button" class="btn_post sns_btn btn_share" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDTX00%2Fbtqxnm6DyU4%2F0YYKL8WCOnjS0z3rKNpb7K%2Fimg.png" data-title="QT 배경 이미지 적용" data-description="배경 이미지를 넣기를 희망하는 컴포넌트의 생성자에 가서,  QPixmap bg(&quot;:/mainImage/image_2019-07-25_18-21-02.png&quot;); QPalette p(palette()); p.setBrush(QPalette::Background, bg); setAutoFillBackground(.." data-profile-image="https://tistory2.daumcdn.net/tistory/3148195/attach/2cf0a96158984b05b925ef196c92012f" data-profile-name="사용자 Prowd Loner" data-pc-url="https://wiserloner.tistory.com/347" data-relative-pc-url="/347" data-blog-title="Loner의 학습노트">
+        <span class="ico_postbtn ico_share">공유하기</span>
+    </button>
+</div>
+                <div class="wrap_btn wrap_btn_etc" data-entry-id="347" data-entry-visibility="public" data-category-visibility="public">
+    <button type="button" class="btn_post btn_etc2"><span class="ico_postbtn ico_etc">글 요소</span></button>
+</div>
+    </div>
+    <button type="button" class="btn_menu_toolbar btn_subscription  #subscribe" data-blog-id="3148195" data-url="https://wiserloner.tistory.com/347" data-device="web_pc">
+    <em class="txt_state">구독하기</em>
+    <strong class="txt_tool_id">Loner의 학습노트</strong>
+    <span class="img_common_tistory ico_check_type1"></span>
+</button>
+    <div class="postbtn_ccl" data-ccl-type="3">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.ko" target="_blank" class="link_ccl">
+        <span class="bundle_ccl">
+            <span class="ico_postbtn ico_ccl1">저작자표시</span>        </span>
+    </a>
+</div>
+    <!--
+<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+        <license rdf:resource="http://creativecommons.org/licenses/by-fr/2.0/kr/" />
+    </Work>
+    <License rdf:about="http://creativecommons.org/licenses/by-fr/">
+        <permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <requires rdf:resource="http://web.resource.org/cc/Notice"/>
+        <requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+                <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+                    </License>
+</rdf:RDF>
+-->
+</div></div></div>
+
+					
+
+					<div class="another_category another_category_color_gray">
+<h4><a href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29" class="alv-one has-sub-alv">개발지식 (UI)</a><a href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/QT%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC" class="alv-two">QT 개인정리</a><span class="txt-bar"></span><span class="lv-txt">카테고리의 다른글</span></h4>
+<table>
+<tbody><tr>
+<th>
+<a href="https://wiserloner.tistory.com/348?category=829467">QT Creator 자동 정렬 단축키</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.08.12</td>
+</tr>
+<tr class="current">
+<th>
+<a href="https://wiserloner.tistory.com/347?category=829467" class="">QT 배경 이미지 적용</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.08.12</td>
+</tr>
+<tr>
+<th>
+<a href="https://wiserloner.tistory.com/346?category=829467">QT resource 이용</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.08.12</td>
+</tr>
+<tr>
+<th>
+<a href="https://wiserloner.tistory.com/224?category=829467">QT 창 프레임 최소화 버튼 활성화</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.07.26</td>
+</tr>
+<tr>
+<th>
+<a href="https://wiserloner.tistory.com/223?category=829467">QT 화면창 사이즈 고정 및 프레임 제거</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.07.26</td>
+</tr>
+<tr>
+<th>
+<a href="https://wiserloner.tistory.com/218?category=829467">QT 위키</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2019.07.23</td>
+</tr>
+</tbody></table></div><hr class="ng-margin point-another">
+
+					<div class="post-reply">
+						<div class="action-trail clearfix">
+							<a href="https://wiserloner.tistory.com/347#rp" onclick="" class="toggle-rp ie-nanum">
+							댓글
+								<span id="commentCount347_0">
+								<span class="cnt ff-h ci-color"> 0</span>
+								</span>
+							</a>
+
+							<a href="https://wiserloner.tistory.com/347#tb" onclick="alert(&#39;이 글에는 트랙백을 달 수 없습니다\t&#39;); return false" class="toggle-tb ie-nanum tbs" style="display: none;">
+							, 엮인글
+								<span id="trackbackCount347">
+								<span class="cnt ff-h"> 0</span>
+								</span>
+							</a>
+
+						</div>
+
+						<div id="entry347Trackback" style="display:none">
+						<div class="trackback tbs" style="display: none;">
+							<h3 class="sr-only">트랙백</h3>
+							<div class="tb-addr"></div>
+							
+						</div><!-- trackback close -->
+						</div>
+
+						<div id="entry347Comment">
+						<div id="comment">
+							<h3 class="sr-only">댓글을 달아 주세요</h3>
+							<!-- comment-form { -->
+							<div id="comment-form" class="write-form">
+								<form method="post" action="https://wiserloner.tistory.com/comment/add/347" onsubmit="return false" style="margin: 0">
+								<div class="textboxs focus-wrap">
+									<label for="textarea-input" class="textarea-input">댓글을 남겨주세요</label>
+									<textarea name="comment" rows="5" id="textarea-input" class="focus-target"></textarea>
+								</div>
+								
+								
+								<div class="input-wrap clearfix">
+									<div class="textbox focus-wrap">
+										<label for="input-name">이름<sub class="txt">&nbsp;NICK</sub><sup class="symbol">*</sup></label>
+										<input type="text" id="input-name" class="focus-target" name="name" value="" required="">
+									</div>
+									<div class="textbox focus-wrap">
+										<label for="input-passwd">비밀번호<sup class="symbol">*</sup></label>
+										<input type="password" id="input-passwd" class="focus-target" maxlength="10" name="password" value="" required="">
+									</div>
+									<div class="textbox input-home focus-wrap">
+										<label for="input-home">홈페이지</label>
+										<input type="text" id="input-home" class="focus-target" name="homepage">
+									</div>
+								</div>
+								
+								
+
+								<div class="checkbox">
+									<input type="checkbox" name="" id="secret">
+									<label for="secret" class="clearfix">
+										<span class="public">공개</span>
+										<span class="secret">비공개</span>
+									</label>
+								</div>
+
+								<div class="submit-wrap">
+									<button type="submit" onclick="addComment(this, 347); return false;" class="ccz-btn default">댓글남기기</button>
+								</div>
+								</form>
+							</div>
+							<!-- } comment-form -->
+
+							
+						</div>
+						</div><script type="text/javascript">loadedComments[347]=true;findFragmentAndHighlight(347)</script>
+					</div>
+					<!-- } post-reply -->
+					
+
+				</div><!-- /.content-width -->
+			</article>
+			
+
+			
+			<div id="paging" class="content-width ci-link">
+				<ul class="pagination list-unstyled clearfix">
+					<li class="prevpage">
+						<a href="https://wiserloner.tistory.com/348" class="" id="prevPage" rel="prev">이전</a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/1487" class="num"> <span>1</span></a>
+					</li>
+					
+					<li>
+						<a class="num"> <span>···</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/351" class="num"> <span>833</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/350" class="num"> <span>834</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/349" class="num"> <span>835</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/348" class="num"> <span>836</span></a>
+					</li>
+					
+					<li class="selected">
+						<a class="num"> <span class="">837</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/346" class="num"> <span>838</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/345" class="num"> <span>839</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/344" class="num"> <span>840</span></a>
+					</li>
+					
+					<li>
+						<a href="https://wiserloner.tistory.com/343" class="num"> <span>841</span></a>
+					</li>
+					
+					<li>
+						<a class="num"> <span>···</span></a>
+					</li>
+					
+					<li class="lastpage">
+						<a href="https://wiserloner.tistory.com/2" class="num"> <span>1132</span></a>
+					</li>
+					
+					<li class="nextpage">
+						<a href="https://wiserloner.tistory.com/346" class="" id="nextPage" rel="next">다음</a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<!-- } content -->
+
+		<!-- sidebar { -->
+		<aside id="sidebar" class="sidebar lts-narrow">
+						<div class="blogImage"><img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/2cf0a96158984b05b925ef196c92012f" alt="블로그 이미지"> </div>
+			<h2 class="sr-only">사이드바</h2>
+			
+			    <!-- 공지사항 -->
+			    <div class="module module-notice hidden-xs hidden-sm">
+			        <h3 class="module-title"><span>NOTICE</span></h3>
+			        <div class="module-content">
+			        	
+			        	<ul id="module-notice-ul" class="ci-link list-unstyled">
+			        		
+			            	<li class="all-view">
+			            		<a href="https://wiserloner.tistory.com/notice">전체 보기</a>
+			            	</li>
+			          	</ul>
+			          	
+			          	<a href="https://wiserloner.tistory.com/347#module-notice-ul" class="btn-toggle btn-more">MORE+</a>
+			        </div>
+			    </div>
+			    
+			    <!-- 최신 글, 댓글 탭형 -->
+			    <div id="recent-wrap" class="recent-wrap module module-recents global-link">
+			        <h3 class="module-title sr-only">RECENTLY</h3>
+			        <div class="module-content">
+			        	<ul id="recent-tab" class="nav-recent list-unstyled clearfix" role="tablist">
+			            	<li class="active"><a href="https://wiserloner.tistory.com/347#tab-rpost" data-toggle="tab" role="tab">최근 글</a></li>
+			            	<li><a class="btn-rcomment" href="https://wiserloner.tistory.com/347#tab-rcomment" data-toggle="tab" role="tab">최근 댓글</a></li>
+			         	</ul>
+
+				        <div class="tab-content">
+				            <!-- #tab-rpost -->
+				            <div id="tab-rpost" class="tab-pane active fade in">
+				              	<!-- 최근 글 -->
+				              	<section class="rpost ci-link">
+				                	<h4 class="sr-only">최근 글</h4>
+				                	<ul class="list-unstyled">
+				                  		
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1487" class="cut">
+				                      			<span class="rpost-title">안드로이드 kotlin 뷰 터치 영역 확대(T⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1487"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1486" class="cut">
+				                      			<span class="rpost-title">안드로이드 kotlin 키보드 바깥 화면 눌⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1486"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1485" class="cut">
+				                      			<span class="rpost-title">안드로이드 Firbase API key expire 에⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1485"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1484" class="cut">
+				                      			<span class="rpost-title">안드로이드 tabLayout 비활성 처리 <span class="c_cnt"><span id="commentCountOnRecentEntries1484"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1482" class="cut">
+				                      			<span class="rpost-title">지극히 주관적으로 설명하는 프로그래밍⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1482"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1481" class="cut">
+				                      			<span class="rpost-title">git sorce tree 잘못 push 한 commit 내⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1481"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1479" class="cut">
+				                      			<span class="rpost-title">개인정리 : 딥러닝 비지도 학습 기반 이⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1479"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1472" class="cut">
+				                      			<span class="rpost-title">R 언어 확률 분포 관련 함수 <span class="c_cnt"><span id="commentCountOnRecentEntries1472"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1469" class="cut">
+				                      			<span class="rpost-title">데이터 분석 : 판별분석 with R <span class="c_cnt"><span id="commentCountOnRecentEntries1469"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                    		<a href="https://wiserloner.tistory.com/1467" class="cut">
+				                      			<span class="rpost-title">데이터 분석 : 회귀분석/분산분석 with⋯ <span class="c_cnt"><span id="commentCountOnRecentEntries1467"></span></span></span>
+				                    		</a>
+				                  		</li>
+				                  		
+				                	</ul>
+				              	</section>
+				            </div>
+
+				            <!-- #tab-rcomment -->
+				            <script> var blogger = 'Prowd Loner'; </script>
+				            <div id="tab-rcomment" class="tab-pane fade">
+				            	<!-- 최근 댓글 -->
+				              	<section class="rcomment">
+				                	<h4 class="nospace sr-only">최근댓글</h4>
+				                	<ul class="list-unstyled">
+				                  		
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/887#comment18164799">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">진우</span>
+				                  				<span class="dt-published"> 12.08</span>
+				                  			</span>
+				                    		OpenCV 는 사물의 영역을 찾는 역할을⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1099#comment18141874">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">Prowd Loner</span>
+				                  				<span class="dt-published"> 11.22</span>
+				                  			</span>
+				                    		참신한 응용법을 고려하시는 것 같습니⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1099#comment18141856">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">dae</span>
+				                  				<span class="dt-published"> 11.21</span>
+				                  			</span>
+				                    		혹시 눈인식 된 좌표를 바탕으로 클릭같⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1297#comment18136446">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">호늘깜냥</span>
+				                  				<span class="dt-published"> 11.16</span>
+				                  			</span>
+				                    		좋은 내용 감사합니다 :)
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1209#comment18134549">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">Prowd Loner</span>
+				                  				<span class="dt-published"> 11.15</span>
+				                  			</span>
+				                    		게시글은 그냥 자유롭게 사용하셔도 됩⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1209#comment18134524">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">브라더 훈</span>
+				                  				<span class="dt-published"> 11.15</span>
+				                  			</span>
+				                    		안녕하세요, 포스팅에 사용하신 이미지⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1184#comment18134508">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">브라더 훈</span>
+				                  				<span class="dt-published"> 11.15</span>
+				                  			</span>
+				                    		안녕하세요, 포스팅에 사용하신 이미지⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1150#comment18134336">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">Prowd Loner</span>
+				                  				<span class="dt-published"> 11.15</span>
+				                  			</span>
+				                    		네, 괜찮습니다.
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/1150#comment18134332">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">브라더 훈</span>
+				                  				<span class="dt-published"> 11.15</span>
+				                  			</span>
+				                    		안녕하세요, 포스팅에 사용하신 이미지⋯
+				                    		</a>
+				                  		</li>
+				                  		
+
+				                  		<li>
+				                  			<a href="https://wiserloner.tistory.com/846#comment18089255">
+				                  			<span class="rcomment-meta cut">
+				                  				<span class="author">데자와 맛있다</span>
+				                  				<span class="dt-published"> 10.07</span>
+				                  			</span>
+				                    		시그마가 무슨 영향을 주는지 잘 이해가⋯
+				                    		</a>
+				                  		</li>
+				                  		
+				                	</ul>
+				              	</section>
+				            </div>
+				        </div> <!-- /.tab-content -->
+			    	</div> <!-- /.module-content -->
+				</div> <!-- /.recent-wrap -->
+				
+				<!-- 엮인글(트랙백) -->
+			  	<div class="module module-tb tbs hidden-xs hidden-sm" style="display: none;">
+			    	<h4 class="module-title"><span class="inline-block">Trackback</span></h4>
+			    	<ul class="module-content list-unstyled">
+			      		
+			    	</ul>
+			  	</div>
+				
+			    <!-- 태그 클라우드 -->
+			    <div class="module module-tag hidden-xs hidden-sm">
+			        <h3 class="module-title"><span class="inline-block">TAG</span></h3>
+			        <ul class="module-content list-unstyled clearfix">
+			        	
+			        </ul>
+			        <a href="https://wiserloner.tistory.com/tag" class="btn-more">MORE+</a>
+			    </div>
+			    
+			    <!-- 글 보관함 -->
+			    <div class="module module-archive hidden-xs hidden-sm">
+			        <h3 class="module-title"><span class="inline-block">ARCHIVE</span></h3>
+			        <div class="module-content">
+			          	<ul class="list-unstyled clearfix">
+			            	
+			            	<li>
+			              		<a href="https://wiserloner.tistory.com/archive/202112">
+				                	<span class="archive-date ff-h">2021/12</span>
+			                		<span class="c_cnt ff-h">(3)</span>
+			              		</a>
+			            	</li>
+			            	
+
+			            	<li>
+			              		<a href="https://wiserloner.tistory.com/archive/202111">
+				                	<span class="archive-date ff-h">2021/11</span>
+			                		<span class="c_cnt ff-h">(1)</span>
+			              		</a>
+			            	</li>
+			            	
+
+			            	<li>
+			              		<a href="https://wiserloner.tistory.com/archive/202110">
+				                	<span class="archive-date ff-h">2021/10</span>
+			                		<span class="c_cnt ff-h">(3)</span>
+			              		</a>
+			            	</li>
+			            	
+
+			            	<li>
+			              		<a href="https://wiserloner.tistory.com/archive/202107">
+				                	<span class="archive-date ff-h">2021/07</span>
+			                		<span class="c_cnt ff-h">(13)</span>
+			              		</a>
+			            	</li>
+			            	
+			          	</ul>
+			        </div>
+			    </div>
+			    
+			    <!-- 달력 -->
+			    <div class="module module-calendar global-link-u hidden-xs  hidden-sm">
+			        <h3 class="module-title"><span class="inline-block">CALENDAR</span></h3>
+			        <div class="module-content">
+			        	<div class="cal-wrap">		<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+			<caption class="cal_month">
+				<a href="https://wiserloner.tistory.com/archive/202111" title="1개월 앞의 달력을 보여줍니다.">«</a>
+				&nbsp;
+				<a href="https://wiserloner.tistory.com/archive/202112" title="현재 달의 달력을 보여줍니다.">2021/12</a>
+				&nbsp;
+				<a href="https://wiserloner.tistory.com/archive/202201" title="1개월 뒤의 달력을 보여줍니다.">»</a>
+			</caption>
+			<thead>
+			<tr>
+				<th class="cal_week2">일</th>
+				<th class="cal_week1">월</th>
+				<th class="cal_week1">화</th>
+				<th class="cal_week1">수</th>
+				<th class="cal_week1">목</th>
+				<th class="cal_week1">금</th>
+				<th class="cal_week1">토</th>
+			</tr>
+			</thead>
+			<tbody>
+					<tr class="cal_week">
+			<td class="cal_day1">&nbsp;</td>
+			<td class="cal_day1">&nbsp;</td>
+			<td class="cal_day1">&nbsp;</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="https://wiserloner.tistory.com/archive/20211201">1</a></td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="https://wiserloner.tistory.com/archive/20211202">2</a></td>
+			<td class=" cal_day cal_day3">3</td>
+			<td class=" cal_day cal_day3">4</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">5</td>
+			<td class=" cal_day cal_day3">6</td>
+			<td class=" cal_day cal_day3">7</td>
+			<td class=" cal_day cal_day3">8</td>
+			<td class=" cal_day cal_day3">9</td>
+			<td class=" cal_day cal_day3">10</td>
+			<td class=" cal_day cal_day3">11</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">12</td>
+			<td class=" cal_day cal_day3">13</td>
+			<td class=" cal_day cal_day3">14</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="https://wiserloner.tistory.com/archive/20211215">15</a></td>
+			<td class=" cal_day cal_day3">16</td>
+			<td class=" cal_day cal_day3">17</td>
+			<td class=" cal_day cal_day4">18</td>
+		</tr>
+		<tr class="cal_week cal_current_week">
+			<td class=" cal_day cal_day_sunday cal_day3">19</td>
+			<td class=" cal_day cal_day3">20</td>
+			<td class=" cal_day cal_day3">21</td>
+			<td class=" cal_day cal_day3">22</td>
+			<td class=" cal_day cal_day3">23</td>
+			<td class=" cal_day cal_day3">24</td>
+			<td class=" cal_day cal_day3">25</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">26</td>
+			<td class=" cal_day cal_day3">27</td>
+			<td class=" cal_day cal_day3">28</td>
+			<td class=" cal_day cal_day3">29</td>
+			<td class=" cal_day cal_day3">30</td>
+			<td class=" cal_day cal_day3">31</td>
+			<td class="cal_day2">&nbsp;</td>
+		</tr>
+			</tbody>
+		</table>
+		</div>
+			        </div>
+			    </div>
+			    
+			    <!-- 링크 -->
+			    <div class="module module-link hidden-xs hidden-sm">
+			        <h3 class="module-title"><a href="https://wiserloner.tistory.com/347#module-link-content" class="btn-toggle">LINK <i class="caret"></i></a></h3>
+			        <div id="module-link-content" class="module-content">
+			        	<ul class="list-unstyled ci-link">
+			            	
+			          	</ul>
+			        </div>
+			    </div>
+			    
+			    <!-- 카운터 -->
+			    <div class="module module-visitor hidden-xs hidden-sm">
+			        <h3 class="module-title sr-only"><span>VISITOR</span></h3>
+			        <div class="module-content visitor">
+			        	<div class="visitor-row clearfix">
+			            	<span class="visitor-cell">오늘</span>
+			            	<span class="ff-h today visitor-date">503</span>
+			          	</div>
+			          	<div class="visitor-row border-row clearfix">
+			            	<span class="visitor-cell">어제</span>
+			            	<span class="ff-h yesterday visitor-date">1,572</span>
+			          	</div>
+			          	<div class="visitor-row clearfix">
+			            	<span class="visitor-cell">전체</span>
+			            	<span class="ff-h total visitor-date">817,890</span>
+			          	</div>
+			        </div>
+			    </div>
+				
+		</aside>
+		<!-- } sidebar -->
+	</div>
+</main>
+<!-- } main -->
+
+<!-- site-footer { -->
+<footer id="site-footer" role="contentinfo">
+	<ul id="nav-footer" class="list-unstyled clearfix">
+		<li>
+			<a href="https://wiserloner.tistory.com/">홈으로</a>
+		</li>
+		<li>
+		    <a href="https://wiserloner.tistory.com/guestbook">방명록</a>
+		</li>
+		<li class="admin-login">
+		    <a href="http://www.tistory.com/m/auth?requestURI=">로그인</a>
+		</li>
+		<li class="admin-logout">
+		    <a href="http://www.tistory.com/m/auth/logout?requestURI=">로그아웃</a>
+		</li>
+		<li>
+		    <a href="https://wiserloner.tistory.com/347#site-header" class="go-top"><i class="fa fa-long-arrow-up"></i>맨위로</a>
+		</li>
+	</ul>
+	<small class="copyright clearfix">
+		<span class="skin visible-md visible-lg">SKIN BY <a href="http://copycatz.tistory.com/" target="_blank">COPYCATZ</a></span>
+		<span class="copyr">COPYRIGHT <a href="https://wiserloner.tistory.com/">Loner의 학습노트</a>, ALL RIGHT RESERVED.</span>
+	</small>
+</footer>
+<!-- } site-footer -->
+
+</div><!-- /#wrap -->
+
+<!-- expand-menu { -->
+<div id="expand-wrap" aria-labelledby="call-exmenu">
+	<div id="expand-menu">
+		<div class="scrollable" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+
+			<div class="expand-top visible-xs visible-sm">
+				<span class="expand-title">Loner의 학습노트</span>
+
+				<div class="expand-profile">
+					<span class="ex-photo inline-block"><img src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/2cf0a96158984b05b925ef196c92012f" alt="블로그 이미지"></span>
+					<span class="ex-txt inline-block"><a class="lts-narrow" href="https://wiserloner.tistory.com/toolbar/popup/link/" title="링크추가">Prowd Loner </a>님의 블로그</span>
+					<a href="https://wiserloner.tistory.com/notice" class="link-notice" title="공지사항보기"><i class="icon icon-bell"></i></a>
+				</div>
+
+				<div class="expand-tt-menu-wrap">
+					<span class="expand-hd sr-only">MENU</span>
+					<div id="expand-tt-menu" class="clearfix">
+						<div class="scrollable-x" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 30px;">
+							<ul>		<li class="t_menu_home first">
+			<a href="https://wiserloner.tistory.com/">홈</a>
+		</li>
+				<li class="t_menu_tag">
+			<a href="https://wiserloner.tistory.com/tag">태그</a>
+		</li>
+				<li class="t_menu_guestbook last">
+			<a href="https://wiserloner.tistory.com/guestbook">방명록</a>
+		</li>
+		</ul>
+						</div>
+				  	<div class="iScrollHorizontalScrollbar iScrollLoneScrollbar" style="position: absolute; z-index: 9999; height: 7px; left: 2px; right: 2px; bottom: 0px; overflow: hidden; pointer-events: none;"><div class="iScrollIndicator" style="box-sizing: border-box; position: absolute; background: rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 3px; height: 100%; transition-duration: 0ms; display: none; width: 8px; transform: translate(-8px, 0px) translateZ(0px); transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);"></div></div></div>
+				</div>
+			</div>
+
+			<div class="expand-tt-cate tt-cate tt-cate-collapse ci-link">
+				<span class="expand-hd sr-only">CATEGORY</span>
+		  		<ul class="tt_category tt-ul">
+	<li class="">
+		<a class="link_tit tt-cate-name" href="https://wiserloner.tistory.com/category">
+			분류 전체보기							<span class="c_cnt">(1132)</span>
+			
+					</a>
+
+				<ul class="category_list tt-ul-two">
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/Programming%20Language">
+						Programming Language													<span class="c_cnt">(191)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/C%20%EA%B0%9C%EC%9D%B8%20%EC%A0%95%EB%A6%AC">
+									C 개인 정리
+																			<span class="c_cnt">(40)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/C%2B%2B%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									C++ 개인정리
+																			<span class="c_cnt">(47)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/C%23%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									C# 개인정리
+																			<span class="c_cnt">(8)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/JAVA%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									JAVA 개인정리
+																			<span class="c_cnt">(20)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/R%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									R 개인정리
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/Python%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									Python 개인정리
+																			<span class="c_cnt">(37)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/GO%20%EC%96%B8%EC%96%B4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									GO 언어 개인정리
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/JavaScript%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									JavaScript 개인정리
+																			<span class="c_cnt">(25)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/Kotlin%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									Kotlin 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/Swift%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									Swift 개인정리
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/Programming%20Language/%EA%B8%B0%ED%83%80%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									기타 프로그래밍 언어 개인정리
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29">
+						개발지식 (이론)													<span class="c_cnt">(399)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									인공지능 개인정리
+																			<span class="c_cnt">(164)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EC%9E%90%EC%97%B0%EC%96%B4%20%EC%B2%98%EB%A6%AC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									자연어 처리 개인정리
+																			<span class="c_cnt">(40)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									데이터 사이언스 개인정리
+																			<span class="c_cnt">(52)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B9%84%EC%A0%84%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									컴퓨터 비전 개인정리
+																			<span class="c_cnt">(105)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/SW%20%EA%B0%9C%EB%B0%9C%20%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									SW 개발 인프라 개인정리
+																			<span class="c_cnt">(18)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EB%B3%B4%EC%95%88%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									보안 개인정리
+																			<span class="c_cnt">(8)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EB%A6%AC%EB%B2%84%EC%8B%B1%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									리버싱 개인정리
+																			<span class="c_cnt">(3)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EC%9B%B9%20%ED%81%AC%EB%A1%A4%EB%A7%81%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									웹 크롤링 개인정리
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									블록체인 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28%EC%9D%B4%EB%A1%A0%29/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4">
+									컴퓨터 그래픽스
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29">
+						개발 지식 (SW)													<span class="c_cnt">(256)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									웹 개발 개인정리
+																			<span class="c_cnt">(33)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EC%9D%91%EC%9A%A9%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									응용 프로그래밍 개인정리
+																			<span class="c_cnt">(30)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EC%95%B1%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									모바일 앱 개인정리
+																			<span class="c_cnt">(53)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									네트워크 프로그래밍 개인정리
+																			<span class="c_cnt">(10)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/Spark%20%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									Spark  개인정리
+																			<span class="c_cnt">(9)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EA%B2%8C%EC%9E%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									게임 프로그래밍 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									프로그래밍 개인정리
+																			<span class="c_cnt">(38)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EA%B5%AC%EC%B6%95%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									머신러닝 구축 개인정리
+																			<span class="c_cnt">(74)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EC%A7%80%EC%8B%9D%20%28SW%29/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									빅데이터 개인정리
+																			<span class="c_cnt">(8)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28HW%29">
+						개발지식 (HW)													<span class="c_cnt">(37)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28HW%29/MCU%20%EA%B0%9C%EB%B0%9C%20%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									MCU 개발  개인정리
+																			<span class="c_cnt">(22)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28HW%29/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									하드웨어 프로그래밍  개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28HW%29/%ED%9A%8C%EB%A1%9C%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									회로 개인정리
+																			<span class="c_cnt">(14)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub tt-has-active open">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29">
+						개발지식 (UI)													<span class="c_cnt">(17)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/Flutter%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									Flutter 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item active" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/QT%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									QT 개인정리
+																			<span class="c_cnt">(6)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/Win32%2C%20Win64">
+									Win32, Win64
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/MFC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									MFC 개인정리
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/WPF%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									WPF 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%A7%80%EC%8B%9D%20%28UI%29/JavaFX%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									JavaFX 개인정리
+																			<span class="c_cnt">(5)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D">
+						정보처리 지식													<span class="c_cnt">(84)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									데이터베이스 개인정리
+																			<span class="c_cnt">(8)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									운영체제 개인정리
+																			<span class="c_cnt">(13)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									자료구조 개인정리
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B0%9C%EC%9D%B8%20%EC%A0%95%EB%A6%AC">
+									알고리즘 개인 정리
+																			<span class="c_cnt">(18)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B0%9C%EC%9D%B8%20%EC%A0%95%EB%A6%AC">
+									네트워크 개인 정리
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/SW%EA%B3%B5%ED%95%99%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									SW공학 개인정리
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									버전 관리 개인정리
+																			<span class="c_cnt">(18)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%20%EC%A7%80%EC%8B%9D/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									컴퓨터 기본 개인정리
+																			<span class="c_cnt">(18)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8">
+						학문													<span class="c_cnt">(56)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8/%EC%88%98%ED%95%99%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									수학 개인정리
+																			<span class="c_cnt">(32)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8/%EB%AC%BC%EB%A6%AC%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									물리 개인정리
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8/%EC%96%B8%EC%96%B4%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									언어 개인정리
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8/%ED%99%95%EB%A5%A0%20%ED%86%B5%EA%B3%84%20%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%A6%AC">
+									확률 통계 개인정리
+																			<span class="c_cnt">(19)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%ED%95%99%EB%AC%B8/%EC%9D%8C%ED%96%A5%EC%9D%B4%EB%A1%A0">
+									음향이론
+																			<span class="c_cnt">(1)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+							<li class="tt-has-sub">
+					<a class="link_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80">
+						기타													<span class="c_cnt">(82)</span>
+						
+											</a>
+
+										<ul class="sub_category_list tt-ul-three">
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EC%9E%A1%EC%A7%80%EC%8B%9D%20%EB%8B%A8%ED%8E%B8">
+									잡지식 단편
+																			<span class="c_cnt">(17)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EA%B8%B0%ED%83%80%20%EA%B0%9C%EC%9D%B8%20%EC%A0%95%EB%A6%AC">
+									기타 개인 정리
+																			<span class="c_cnt">(32)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EA%B8%B0%ED%83%80%20%EC%9E%A1%EC%83%9D%EA%B0%81">
+									기타 잡생각
+																			<span class="c_cnt">(20)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EC%B7%A8%EB%AF%B8%20%E3%85%8E%E3%85%8E">
+									취미 ㅎㅎ
+																			<span class="c_cnt">(4)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4%20%EA%B4%80%EB%A6%AC">
+									아이디어 관리
+																			<span class="c_cnt">(7)</span>
+									
+																	</a>
+							</li>
+													<li class="">
+								<a class="link_sub_item" href="https://wiserloner.tistory.com/category/%EA%B8%B0%ED%83%80/%EA%B8%B0%EC%88%A0%20%EC%86%8C%EA%B0%9C">
+									기술 소개
+																			<span class="c_cnt">(2)</span>
+									
+																	</a>
+							</li>
+											</ul>
+					
+				<span class="tt-cate-toggle"><i class="icon icon-angle-down"></i></span></li>
+					</ul>
+			</li>
+</ul>
+		  	</div>
+
+		  	<div class="expand-visitor visible-xs visible-sm">
+		  		<span class="expand-hd sr-only">VISITOR</span>
+		  		<span class="visitor-span today ff-h"><span class="visitor-txt">오늘</span>503</span> / <span class="visitor-span total ff-h"><span class="visitor-txt sr-only">전체</span>817,890</span>
+		  	</div>
+		</div>
+		<div class="expand-admin ci-link visible-xs visible-sm">
+			<ul class="lts-narrow clearfix">
+				<li><a href="https://wiserloner.tistory.com/manage/entry/post"><i class="icon icon-pen"></i>글쓰기</a></li>
+				<li><a href="https://wiserloner.tistory.com/manage"><i class="icon icon-cog"></i>환경설정</a></li>
+				<li class="admin-login"><a href="https://www.tistory.com/login"><i class="icon icon-enter"></i>로그인</a></li>
+				<li class="admin-logout"><a href="https://www.tistory.com/logout"><i class="icon icon-exit"></i>로그아웃</a></li>
+				<li><a href="https://wiserloner.tistory.com/347#call-exmenu" class="btn-close"><i class="icon icon-cancel-circle"></i>취소</a></li>
+			</ul>
+		</div>
+	</div>
+	<a href="https://wiserloner.tistory.com/347#call-exmenu" class="btn-close bg-close"></a>
+</div>
+<!-- } expand-menu -->
+
+<!-- search { -->
+<section id="tt-search" aria-labelledby="call-search">
+	<h2 class="sr-only">검색</h2>
+	<div class="tt-search-inner">
+		
+	  	<form id="search-form" autocomplete="off" role="form">
+	  		<a href="https://wiserloner.tistory.com/347#call-search" class="btn-close search-close">
+	  			<i class="icon icon-arrow-left"></i>
+	  		</a>
+	  		<input type="search" name="search" value="" id="search-input" class="ie-nanum" onkeypress="if (event.keyCode == 13) { try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){} }" placeholder="블로그검색" role="search" autocomplete="off">
+	  		<button type="button" onclick="try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){}" class="search-submit"><i class="icon icon-magnifier" aria-label="검색"></i></button>
+	  	</form>
+		
+
+		<div id="search-tag">
+			<ul class="scrollable list-unstyled" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+			</ul>
+		<div class="iScrollVerticalScrollbar iScrollLoneScrollbar" style="position: absolute; z-index: 9999; width: 7px; bottom: 2px; top: 2px; right: 1px; overflow: hidden; pointer-events: none;"><div class="iScrollIndicator" style="box-sizing: border-box; position: absolute; background: rgba(0, 0, 0, 0.5); border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 3px; width: 100%; transition-duration: 0ms; display: none; height: 8px; transform: translate(0px, -8px) translateZ(0px); transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);"></div></div></div>
+	</div>
+	<a href="https://wiserloner.tistory.com/347#call-search" class="btn-close bg-close"></a>
+</section>
+<!-- } search -->
+
+
+
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/jquery.min.js.다운로드"></script>
+<script>window.jQuery || document.write('<script src="https://tistory3.daumcdn.net/tistory/3148195/skin/images/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/plugins.js.다운로드"></script>
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/main.js.다운로드"></script>
+<!--[if gte IE 9]><!-->
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/iscroll.min.js.다운로드"></script>
+<script>
+var wrapper = document.getElementById('expand-menu');
+var myScroll = new IScroll(wrapper, {
+    click: false,
+    mouseWheel: true,
+    preventDefaultException:{tagName:/.*/},
+    disablePointer: true,
+    disableTouch: false,
+    disableMouse: false
+});
+var wrapper2 = document.getElementById('expand-tt-menu');
+var myScroll2 = new IScroll(wrapper2, {
+    click: false,
+    scrollX: true,
+    scrollY: false,
+    scrollbars: true,
+    preventDefaultException:{tagName:/.*/},
+    disablePointer: true,
+	disableTouch: false,
+	disableMouse: false
+});
+var btnMenu = document.getElementById('call-exmenu');
+btnMenu.addEventListener('click', function(){
+    setTimeout(function(){
+    myScroll.refresh();
+    myScroll2.refresh();
+    }, 500);
+});
+
+var wrapper3 = document.getElementById('search-tag');
+var myScroll3 = new IScroll(wrapper3, {
+    click: false,
+    mouseWheel: true,
+    scrollbars: true,
+    preventDefaultException:{tagName:/.*/},
+    disablePointer: true,
+	disableTouch: false,
+	disableMouse: false
+});
+var btnMenu3 = document.getElementById('call-search');
+btnMenu3.addEventListener('click', function(){
+    setTimeout(function(){
+    myScroll3.refresh();
+    }, 500);
+});
+</script>
+<!--<![endif]-->
+
+<script src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/search_dragselection.min.js.다운로드"></script>
+
+	<script>
+	    lightbox.option({
+			"fadeDuration": 200,
+		    "resizeDuration": 200,
+		    "wrapAround": false,
+			"albumLabel": "%1 / %2",
+			"fitImagesInViewport":true ,
+			"stopEvent": false
+	    })
+	</script>            <script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/tiara.min.js.다운로드"></script>
+            <script type="text/javascript">window.tiara = {"svcDomain":"user.tistory.com","section":"\uae00\ubdf0","trackPage":"\uae00\ubdf0_\ubcf4\uae30","page":"\uae00\ubdf0","key":"3148195-347","customProps":{"userId":0,"blogId":"3148195","role":"guest","filterTarget":false,"trackPage":"\uae00\ubdf0_\ubcf4\uae30","entryId":"347"},"entry":{"entryId":"347","categoryName":"QT \uac1c\uc778\uc815\ub9ac","categoryId":"829467","author":"3918765","authorId":"3918765","image":"3918765","plink":"\/347","tags":[],"key":"3148195-347"},"sentryDsn":"https:\/\/a53520229cd744e798d42900d76b0e2a@aem-collector.daumkakao.io\/713","kakaoAppKey":"b8aef3eeb03fa312b81795386484f051","appUserId":null};</script>
+            <script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/tiara.min.js(1).다운로드" defer=""></script>
+                        <script type="text/javascript">
+                window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: 'tistory'}];
+            </script>
+            <script type="text/javascript" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/roosevelt_dk_bt.js.다운로드" async=""></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="./Loner의 학습노트 __ QT 배경 이미지 적용_files/api.html" id="editEntry"></iframe><div id="tistoryEtcLayer" class="layer_post"></div><div id="tistorySnsLayer" class="layer_post"><div class="bundle_post"><a href="https://wiserloner.tistory.com/347#none" class="btn_mark" data-service="facebook"><span class="ico_sns ico_fb"></span>페이스북으로 공유</a><a href="https://wiserloner.tistory.com/347#none" class="btn_mark" data-service="kakaotalk"><span class="ico_sns ico_kt"></span>카카오톡으로 공유</a><a href="https://wiserloner.tistory.com/347#none" class="btn_mark" data-service="kakaostory"><span class="ico_sns ico_ks"></span>카카오스토리로 공유</a><a href="https://wiserloner.tistory.com/347#none" class="btn_mark" data-service="twitter"><span class="ico_sns ico_tw"></span>트위터로 공유</a><a href="https://wiserloner.tistory.com/347#none" class="btn_mark" data-service="url"><span class="ico_sns ico_url"></span>URL 복사</a><span class="ico_postbtn ico_arrbt"></span></div></div>
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href="https://wiserloner.tistory.com/347"></a><a class="lb-next" href="https://wiserloner.tistory.com/347"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
